@@ -1,0 +1,6 @@
+Um banco que oferece, no primeiro momento, uma conta corrente.
+Site inicial com area de login, area para falar sobre o banco, area sobre os servicos que oferece.
+A area de login sera uma parte fixa no site, ou seja, estara sempre visivel.
+Para logar, precisa de numero de conta e senha de 4 digitos.
+Area logada tera, area de saldo, area de cartão de debito, pix e area de administração.
+Area de administração tera opcoes de trocar senha e encerrar conta.

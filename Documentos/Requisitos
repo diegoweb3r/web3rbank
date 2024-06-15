@@ -1,0 +1,13 @@
+Funcionais
+- Deverá ter site inicial com informações do banco, serviços prestados, area para abertura de conta e area de login;
+- Area de login fixa no site, solicita numero de conta e senha de 4 digitos e ser validada;
+- Area de abertura de conta corrente solicita nome completo, cpf e senha de 4 digitos;
+- Area logada deverá conter areas de informações de saldo, cartão de débito, pix e administração;
+- Area de saldo deverá apresentar saldo do dia e saldos de dias anteriores.
+- Area de cartão de débito deverá apresentar o cartão de debito digital, opção de pedir novo cartão;
+- Area de pix deverá apresentar opção de realizar pix utilizando numero de conta corrente.
+- Area de administração o usuario podera trocar senha e encerrar conta corrente;
+
+Não funcionais
+- Funcionar em dispositivos movéis e desktop
+- Ter interface simples
