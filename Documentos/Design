@@ -1,4 +1,5 @@
-Cores HEX
+{ 
+    Cores HEX
 hunter-green #386641ff
 asparagus #6a994eff
 yellow-green #a7c957ff
@@ -11,5 +12,5 @@ asparagus hsla(98, 32%, 45%, 1)
 yellow-green hsla(78, 51%, 56%, 1)
 slate-gray hsla(208, 7%, 46%, 1)
 antiflash-white hsla(210, 16%, 93%, 1)
-
+}
 
