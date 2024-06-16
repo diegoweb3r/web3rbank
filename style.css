@@ -19,25 +19,17 @@ body{
     font-family: 'Roboto', Times, serif;
 }
 
-nav{
-    min-width: 100%;
-    height: 5rem;
-    background-color: wheat;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
+/*Logo*/
 .logo{
-    width: 8rem;
+    width: 25%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 
 .logo .textLogo{
     border-left: 2px solid black;
     padding-left: 0.8rem;
+    margin-left: 0.8rem;
 }
 
 .logo .textLogo .logoMainText{
@@ -48,8 +40,55 @@ nav{
 .logo .textLogo .logoText{
     padding-left: 2.7rem;
 }
+/*Logo*/
+
+/*Botões*/
+.accessButton{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 0.2rem 0.6rem;
+    border: none;
+    color: var(--slate-gray);
+    background-color: var(--yellow-green);
+    transition: 0.5s ease;
+}
+
+.accessButton:hover{
+    color: var(--yellow-green);
+    background-color: var(--slate-gray);
+    cursor: pointer;
+}
+
+/* Header */
+nav{
+    min-width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.1rem solid ;
+}
+
 
 #loginArea{
     display: flex;
-    
+    width: 25%;
+    justify-content: space-around;
+    align-items: center;
 }
+
+#loginArea p {
+    font-weight: 700;
+    color: var(--asparagus)
+}
+
+#loginArea input {
+    width: 10rem;
+    height: 1.3rem;
+    font-size: 0.8rem;
+    margin: 0.3rem 0;
+    border-radius: 0.3rem;
+    padding: 0.4rem;
+    border: none;
+}
+
